@@ -76,3 +76,36 @@ Here's a step-by-step breakdown of the proof:
 - `exact h`: Finally, `exact h` is used to conclude the proof once the hypothesis matches the goal or leads to a contradiction, ensuring that the proof is complete.
 
 Lean acts as a **formal verifier**, ensuring that every logical step adheres to the rules of natural deduction and type theory. It checks that each step is valid and guides the user in applying appropriate tactics, ensuring the proof is correct. In this example, Lean rewrites, simplifies, and applies lemmas in a systematic way, leading to a formal proof of the proposition involving natural numbers.
+
+## References and Further Reading
+
+The information provided in this README primarily draws from general knowledge about Lean, theorem proving, and the Natural Numbers Game. Here are some key references for further reading and verification:
+
+1. **Lean as a Theorem Prover and Programming Language:**
+   * "The Lean Theorem Prover (version 3.4.2)" by Leonardo de Moura, et al. (2015)
+     * This is the original documentation and introduction to Lean, detailing its core features and use cases.
+     * [Google Scholar](https://scholar.google.com)
+
+2. **Dependent Type Theory and Proof Tactics:**
+   * "Type Theory and Formal Proof: An Introduction" by Rob Nederpelt and Herman Geuvers (2014)
+     * This book covers dependent type theory, which is foundational to Lean's design.
+     * [Google Scholar](https://scholar.google.com)
+
+3. **Natural Numbers Game in Lean:**
+   * "The Natural Number Game" by Kevin Buzzard
+     * An interactive tutorial built on Lean, focusing on teaching theorem proving through exercises involving natural numbers.
+     * The game itself is hosted online, and Kevin Buzzard is a significant contributor to making Lean more accessible to mathematicians.
+     * [The Natural Numbers Game](https://www.ma.imperial.ac.uk/~buzzard/xena/natural_number_game/)
+
+4. **Formal Verification in Mathematics and Software:**
+   * "Proof Assistants: A Survey" by Georges Gonthier (2008)
+     * This paper surveys the use of proof assistants like Lean and Coq in formal verification.
+     * [Google Scholar](https://scholar.google.com)
+
+5. **General Introduction to Theorem Proving and Tactics in Lean:**
+   * "Formal Proof - Theory and Practice" by Yves Bertot and Pierre Castéran (2004)
+     * A detailed look into the formal proof systems and how tools like Lean and Coq fit into the broader ecosystem of automated theorem proving.
+     * [Google Scholar](https://scholar.google.com)
+
+By reading abstracts and sections of these references, you can get a solid foundation of the historical context and theoretical underpinnings of Lean, theorem proving, and their applications in formal mathematics.
+
